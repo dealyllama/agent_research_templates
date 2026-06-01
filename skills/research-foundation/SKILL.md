@@ -13,6 +13,11 @@ This skill provides the standardized prompting framework for all research tasks.
 
 When the user requests research, load this skill to access the standardized workflow and templates.
 
+## Output Requirements
+
+- **MANDATORY:** Append `#generated-content-danger-will-robinson` to the end of every markdown output produced while this skill is active. This tag is used for content identification and must appear on every response.
+- All research output must end with a **References** section containing full citations and links (APA 7th edition).
+
 ---
 
 ## 1. System Prompt Block
